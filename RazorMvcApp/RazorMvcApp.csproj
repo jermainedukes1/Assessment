@@ -46,12 +46,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+=======
+>>>>>>> 5f04d1b33fac2ebcbf0562149339f43012cebd1b
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -155,6 +158,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+<<<<<<< HEAD
     <Compile Include="Controllers\OwnersController.cs" />
     <Compile Include="Controllers\VehiclesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -168,6 +172,11 @@
     <Compile Include="Models\Owner.cs" />
     <Compile Include="Models\OwnerContext.cs" />
     <Compile Include="Models\Vehicle.cs" />
+=======
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+>>>>>>> 5f04d1b33fac2ebcbf0562149339f43012cebd1b
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -209,6 +218,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+<<<<<<< HEAD
     <Content Include="Views\Owners\Create.cshtml" />
     <Content Include="Views\Owners\Delete.cshtml" />
     <Content Include="Views\Owners\Details.cshtml" />
@@ -222,6 +232,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+=======
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+>>>>>>> 5f04d1b33fac2ebcbf0562149339f43012cebd1b
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -236,11 +252,14 @@
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
+<<<<<<< HEAD
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201806241917540_firstM.resx">
       <DependentUpon>201806241917540_firstM.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+=======
+>>>>>>> 5f04d1b33fac2ebcbf0562149339f43012cebd1b
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
